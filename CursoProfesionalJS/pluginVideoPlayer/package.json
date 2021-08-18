@@ -1,0 +1,24 @@
+{
+  "name": "pluginvideoplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulimoralez/pluginVideoPlayer.git"
+  },
+  "keywords": [],
+  "author": "Moralez Ulises",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ulimoralez/pluginVideoPlayer/issues"
+  },
+  "homepage": "https://github.com/ulimoralez/pluginVideoPlayer#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
