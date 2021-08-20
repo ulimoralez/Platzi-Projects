@@ -1,0 +1,36 @@
+langauge: node_js
+os: osx
+
+git:
+    depth: 3
+
+branches:
+    except:
+        - legacy
+        - experimental
+
+branches:
+  only:
+  - master
+  - estable
+
+before_install:
+  - python
+
+install:
+  - yarn intall
+
+scripts:
+  - yarn deploy
+  - yarn test
+
+before_script:
+  - 
+
+after_script_
+  - yarn clean
+
+cache:
+  directories:
+    - node_modules
+

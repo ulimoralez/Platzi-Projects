@@ -1,0 +1,12 @@
+{
+  "name": "cursosinglepageappjs",
+  "version": "1.0.0",
+  "description": "Página del curso Single Page App con JavaScript Nativo en Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ulises Moralez",
+  "license": "ISC"
+}
