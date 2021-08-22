@@ -1,6 +1,7 @@
 :root {
     --primary-Green: #47cfac;
 }
+@import url(‘https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap’);
 body {
     margin: 0;
     padding: 0;
@@ -83,6 +84,8 @@ nav .profile-link a {
     background-position: center;
     display: flex;
     justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    
 }
 
 .hero-container {
